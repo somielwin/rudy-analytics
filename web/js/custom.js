@@ -37,7 +37,7 @@ function getHost() {
 
     if(location.href.indexOf('local.rudy-experience.com') > -1)
         return 'http://tools.propelrr.net/';
-    else if(location.href.indexOf('rudy-experience-staging.herokuapp.com') > -1 || location.href.indexOf('raw2.statichtmlapp.com') > -1)// || location.href.indexOf('raw2.statichtmlapp.com') > -1
+    else if(location.href.indexOf('rudy-experience-staging.herokuapp.com') > -1 || location.href.indexOf('raw2.statichtmlapp.com') > -1 || location.href.indexOf('rudy-analytics.herokuapp.com') > -1)// || location.href.indexOf('raw2.statichtmlapp.com') > -1
         return 'https://tools-dev.propelrr.com/';
 
     return 'https://tools.propelrr.com/';
