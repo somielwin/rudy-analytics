@@ -10,14 +10,14 @@ header("Access-Control-Allow-Origin: *");
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<link rel="stylesheet" href="https://rudy-experience-staging.herokuapp.com/js/loader/style.css" media="all"/>
-<link rel="stylesheet" href="https://rudy-experience-staging.herokuapp.com/js/sticky/sticky.min.css" media="all"/>
+<link rel="stylesheet" href="https://rudy-analytics.herokuapp.com/js/loader/style.css" media="all"/>
+<link rel="stylesheet" href="https://rudy-analytics.herokuapp.com/js/sticky/sticky.min.css" media="all"/>
 
-<link rel="stylesheet" href="https://rudy-experience-staging.herokuapp.com/css/style.css" media="all"/>
-<link rel="stylesheet" href="https://rudy-experience-staging.herokuapp.com/css/croppie.css" media="all"/>
+<link rel="stylesheet" href="https://rudy-analytics.herokuapp.com/css/style.css" media="all"/>
+<link rel="stylesheet" href="https://rudy-analytics.herokuapp.com/css/croppie.css" media="all"/>
 
-<!--[if lt IE 9]> <script src="https://rudy-experience-staging.herokuapp.com/js/css3-mediaqueries.js"></script> <![endif]-->
-<script src="https://rudy-experience-staging.herokuapp.com/js/html5.js"></script>
+<!--[if lt IE 9]> <script src="https://rudy-analytics.herokuapp.com/js/css3-mediaqueries.js"></script> <![endif]-->
+<script src="https://rudy-analytics.herokuapp.com/js/html5.js"></script>
 
 <script type="text/javascript">
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
@@ -65,8 +65,8 @@ header("Access-Control-Allow-Origin: *");
 
 
 				<div class="banner">
-					<img class="desktop-banner" src="https://rudy-experience-staging.herokuapp.com/images/banner-new.jpg" alt="">
-					<img class="mobile-banner" src="https://rudy-experience-staging.herokuapp.com/images/banner-mobile.jpg" alt="">
+					<img class="desktop-banner" src="https://rudy-analytics.herokuapp.com/images/banner-new.jpg" alt="">
+					<img class="mobile-banner" src="https://rudy-analytics.herokuapp.com/images/banner-mobile.jpg" alt="">
 				</div>
 				<div class="head-title">
 					<h1 class="text-center">Share your Rudy Project experience!</h1>
@@ -151,16 +151,16 @@ header("Access-Control-Allow-Origin: *");
 								</div>
 								<div id="ex-photo-wrap" style="margin-bottom: 60px; margin-top: 0;">
 									<section id="renderedCanvas">
-										<img src="https://rudy-experience-staging.herokuapp.com/images/frame_new.png" class="img-backdrop">
+										<img src="https://rudy-analytics.herokuapp.com/images/frame_new.png" class="img-backdrop">
 
 										<div class="cropper-area">
 											<div id="cropper-image" class="cropper-div"></div>
 										</div>
 									</section>
-									<figure class="fo frame-top"><img src="https://rudy-experience-staging.herokuapp.com/images/frame-top.png"></figure>
-									<figure class="fo frame-bottom"><img src="https://rudy-experience-staging.herokuapp.com/images/frame-bottom.png"></figure>
-									<figure class="fo frame-left"><img src="https://rudy-experience-staging.herokuapp.com/images/frame-left.png"></figure>
-									<figure class="fo frame-right"><img src="https://rudy-experience-staging.herokuapp.com/images/frame-right.png"></figure>
+									<figure class="fo frame-top"><img src="https://rudy-analytics.herokuapp.com/images/frame-top.png"></figure>
+									<figure class="fo frame-bottom"><img src="https://rudy-analytics.herokuapp.com/images/frame-bottom.png"></figure>
+									<figure class="fo frame-left"><img src="https://rudy-analytics.herokuapp.com/images/frame-left.png"></figure>
+									<figure class="fo frame-right"><img src="https://rudy-analytics.herokuapp.com/images/frame-right.png"></figure>
 									<!-- <div class="time-text">
 										<span><time class="-time-1">00</time> <i>MIN</i></span><span>
 											<em>:</em><time class="-time-2">00</time><em>:</em><i>SEC</i>
@@ -191,7 +191,7 @@ header("Access-Control-Allow-Origin: *");
 								</div>
 							</div>
 							<div class="form-right">
-				
+
 							</div>
 							<div class="clr"></div>
 						</form>
@@ -217,15 +217,15 @@ header("Access-Control-Allow-Origin: *");
 	</section>
 </section>
 <footer></footer>
-<script src="https://rudy-experience-staging.herokuapp.com/js/lib/jquery.min.js"></script>
-<script src="https://rudy-experience-staging.herokuapp.com/js/lib/jquery-ui.min.js"></script>
-<script src="https://rudy-experience-staging.herokuapp.com/js/croppie.min.js"></script>
-<script src="https://rudy-experience-staging.herokuapp.com/js/html2canvas.js"></script>
-<script src="https://rudy-experience-staging.herokuapp.com/js/exif.js"></script>
-<script src="https://rudy-experience-staging.herokuapp.com/js/plugins.js"></script>
-<script src="https://rudy-experience-staging.herokuapp.com/js/custom.js"></script>
-<script src="https://rudy-experience-staging.herokuapp.com/js/loader/script.js"></script>
-<script src="https://rudy-experience-staging.herokuapp.com/js/sticky/sticky.min.js"></script>
+<script src="https://rudy-analytics.herokuapp.com/js/lib/jquery.min.js"></script>
+<script src="https://rudy-analytics.herokuapp.com/js/lib/jquery-ui.min.js"></script>
+<script src="https://rudy-analytics.herokuapp.com/js/croppie.min.js"></script>
+<script src="https://rudy-analytics.herokuapp.com/js/html2canvas.js"></script>
+<script src="https://rudy-analytics.herokuapp.com/js/exif.js"></script>
+<script src="https://rudy-analytics.herokuapp.com/js/plugins.js"></script>
+<script src="https://rudy-analytics.herokuapp.com/js/custom.js"></script>
+<script src="https://rudy-analytics.herokuapp.com/js/loader/script.js"></script>
+<script src="https://rudy-analytics.herokuapp.com/js/sticky/sticky.min.js"></script>
 
 
 <!--<script src="/js/lib/jquery.min.js"></script>-->
