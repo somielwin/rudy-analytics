@@ -362,6 +362,8 @@ function submitEntry() {
                 url: 'https://i.imgur.com/1TasLRT.jpg'
             });
 
+            dataLayer.push({'event' : 'formSubmitted', 'Register' : 'RudyProject'});
+
             hasImage = false;
 
         } else if(data.code==303) {
