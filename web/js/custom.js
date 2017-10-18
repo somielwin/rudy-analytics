@@ -76,6 +76,11 @@ function bindEvents() {
         readFile(this);
     });
 
+    $dom.on('click', '#btn-data-layer-unique', function(e) {
+        console.log('analytics fired!');
+        dataLayer.push({'event' : 'formSubmitted', 'Register' : 'RudyProject'});
+    });
+
     $dom.on('click', btnJoin, function(e) {
         e.preventDefault();
         FB.login(function (response) {
@@ -353,6 +358,8 @@ function submitEntry() {
         contentType: false
     }).done( function(data) {
         if(data.code==200){
+            $('#btn-data-layer-unique').click();
+
             $(frmEntry).find('form').trigger('reset');
             message = 'Successfully submitted entry!';
             $(modalThankYou).addClass('active');
@@ -361,8 +368,6 @@ function submitEntry() {
             $croppie.croppie('bind', {
                 url: 'https://i.imgur.com/1TasLRT.jpg'
             });
-
-            dataLayer.push({'event' : 'formSubmitted', 'Register' : 'RudyProject'});
 
             hasImage = false;
 

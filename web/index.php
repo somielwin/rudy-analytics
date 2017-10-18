@@ -40,6 +40,7 @@ header("Access-Control-Allow-Origin: *");
 				  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <section id="main-container">
+	<a href="javascript:void(0)" id="btn-data-layer-unique" style="text-decoration: none;" onclick="">&nbsp;</a>
 
 	<div class="popup-wrap default-popup" id="mo-confirmation-submit" >
 		<div class="popup-content">
