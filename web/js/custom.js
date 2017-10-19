@@ -77,8 +77,9 @@ function bindEvents() {
     });
 
     $dom.on('click', '#btn-data-layer-unique', function(e) {
-        console.log('analytics fired!');
-        dataLayer.push({'event' : 'formSubmitted', 'Register' : 'RudyProject'});
+        //console.log('analytics fired!');
+        //dataLayer.push({'event' : 'formSubmitted', 'Register' : 'RudyProject'});
+        fbq('track', 'Registration1');
     });
 
     $dom.on('click', btnJoin, function(e) {
