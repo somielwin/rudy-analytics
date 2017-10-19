@@ -76,11 +76,10 @@ function bindEvents() {
         readFile(this);
     });
 
-    $dom.on('click', '#btn-data-layer-unique', function(e) {
-        console.log('analytics fired!');
-        dataLayer.push({'event' : 'formSubmitted', 'Register' : 'RudyProject'});
-        //fbq('trackCustom', 'Registration1');
-    });
+    //$dom.on('click', '#btn-data-layer-unique', function(e) {
+    //
+    //    //fbq('trackCustom', 'Registration1');
+    //});
 
     $dom.on('click', btnJoin, function(e) {
         e.preventDefault();
@@ -359,7 +358,8 @@ function submitEntry() {
         contentType: false
     }).done( function(data) {
         if(data.code==200){
-            $('#btn-data-layer-unique').click();
+            console.log('analytics fired!');
+            dataLayer.push({'event' : 'formSubmitted', 'Register' : 'RudyProject'});
 
             $(frmEntry).find('form').trigger('reset');
             message = 'Successfully submitted entry!';
