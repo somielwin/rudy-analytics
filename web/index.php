@@ -35,10 +35,10 @@ header("Access-Control-Allow-Origin: *");
 	<!-- Google Tag Manager -->
 </head>
 <body>
-<!--<!-- Google Tag Manager (noscript) -->
+<!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WDKT4X6"
 				  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!--<!-- End Google Tag Manager (noscript) -->
+<!-- End Google Tag Manager (noscript) -->
 
 
 <section id="main-container">
