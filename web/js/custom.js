@@ -360,7 +360,7 @@ function submitEntry() {
         if(data.code==200){
             console.log('analytics fired!');
             dataLayer.push({'event' : 'formSubmitted', 'Register' : 'RudyProject'});
-
+console.log(dataLayer);
 
 
             $(frmEntry).find('form').trigger('reset');
